@@ -12,4 +12,4 @@ https://github.com/lwinmoe/zawgyi-tagger
 
 # Credit
 
-This tool is based on [Myanmar Font Tools](https://github.com/kominko/mmft).
+This tool is based on [Myanmar Font Tools](https://github.com/kominko/mmft). Zawgyi Regular Expression was taken from [MUA Web Unicode Converter](https://github.com/sanlinnaing/MUA-Web-Unicode-Converter)
