@@ -1,7 +1,7 @@
 {
   "name": "Zawgyi Font Tagger",
   "description": "Tool to tag Zawgyi font in Myanmar Language",
-  "version": "1.0",
+  "version": "1.0.1",
   "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
   "content_scripts": [
     {
