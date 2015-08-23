@@ -10,6 +10,6 @@ This is intended for those of us who use Burmese Unicode primarily and don't wan
 
 https://github.com/lwinmoe/zawgyi-tagger
 
-# Credit
+# Credits
 
 This tool is based on [Myanmar Font Tools](https://github.com/kominko/mmft). Zawgyi Regular Expression was taken from [MUA Web Unicode Converter](https://github.com/sanlinnaing/MUA-Web-Unicode-Converter)
