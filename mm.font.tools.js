@@ -56,7 +56,6 @@ function injectCss(){
     });
     
     var regexMM = new RegExp("[\u1000-\u109f\uaa60-\uaa7f]+");
-    //var regexZG = new RegExp("\s\u1031| ေ[က-အ]်|[က-အ]း");
 
     // This regular expression is from MUA Web Unicode Converter
     var zawgyiRegex = "\u1031\u103b" // e+medial ra
