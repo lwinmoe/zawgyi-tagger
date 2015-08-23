@@ -6,20 +6,6 @@ Credits:
   - Zawgyi Regular Expression was taken from MUA Web Unicode Converter (https://github.com/sanlinnaing/MUA-Web-Unicode-Converter)
 */
 
-function loadJquery(){
-    if(jQuery == 'undefined') {
-        chrome.tabs.executeScript(null, {file: 'jquery.min.js'})
-    }
-}
-
-function addHandles() {
-    chrome.runtime.onMessage.addListener(function(request, sender, callBack) {
-        if (request.what == "getClickedElement") {
-            callBack({value: 'hi' });
-        }
-    });
-}
-
 function injectCss(){
     var path = chrome.extension.getURL('zg.css');
     var link = document.createElement('link');
@@ -30,7 +16,6 @@ function injectCss(){
 }
 
 (function() {
-    addHandles();
     injectCss();
     var list = document.querySelector('body');
     var observer = new MutationObserver(function(mutations) {

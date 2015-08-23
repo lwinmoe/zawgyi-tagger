@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["jquery.min.js", "zg.js"]
+      "js": ["zg.js"]
     }
   ],
   "web_accessible_resources": [
