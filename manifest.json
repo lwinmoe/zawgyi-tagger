@@ -7,11 +7,11 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["jquery.min.js", "mm.font.tools.js"]
+      "js": ["jquery.min.js", "zg.js"]
     }
   ],
   "web_accessible_resources": [
-    "mm.css",
+    "zg.css",
     "ZawgyiOne.ttf"
   ]
 }

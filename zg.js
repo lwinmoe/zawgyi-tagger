@@ -21,7 +21,7 @@ function addHandles() {
 }
 
 function injectCss(){
-    var path = chrome.extension.getURL('mm.css');
+    var path = chrome.extension.getURL('zg.css');
     var link = document.createElement('link');
     link.type = 'text/css';
     link.rel = 'stylesheet';
