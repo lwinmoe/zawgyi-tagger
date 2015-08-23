@@ -1,8 +1,10 @@
 {
+  "manifest_version": 2
   "name": "Zawgyi Font Tagger",
-  "description": "Tool to tag and render Zawgyi font in Burmese.",
   "version": "1.0.2",
-  "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+  "description": "Tool to tag and render Zawgyi font in Burmese.",
+  "default_locale": "en",
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
@@ -13,5 +15,4 @@
     "mm.css",
     "ZawgyiOne.ttf"
   ],  
-  "manifest_version": 2
 }
