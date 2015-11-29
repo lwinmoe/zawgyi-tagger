@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'ZawGyi';
-    src: url('ZawgyiOne.ttf') format('truetype');
+    font-family: 'ZawGyi-One';
+    src: url('Zawgyi-One.ttf') format('truetype');
 }
-.__zg { font-family: 'ZawGyi'; }
+.__zg { font-family: 'ZawGyi-One'; }
