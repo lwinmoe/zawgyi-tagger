@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Zawgyi Font Tagger",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tool to tag and render Zawgyi font in Burmese.",
   "permissions": ["tabs", "http://*/*", "https://*/*"],
   "content_scripts": [
