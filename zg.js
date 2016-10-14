@@ -119,6 +119,7 @@ function injectCss(){
                 text = prNode.textContent;
                 if (regexZG.test(text)) {
                     prNode.className += ' ' + cZawgyi;
+                    prNode.style.setProperty("font-family", "ZawGyi-One", "important");
                 }
             }
         } else {
