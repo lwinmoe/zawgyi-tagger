@@ -71,8 +71,13 @@ function injectCss(){
         //+ "|[\u102b\u102c][\u102b\u102c]" [ FIXED!! It is not so valuable zawgyi pattern ]
         // shan digit + vowel
         + "|[\u1090-\u1099][\u102b-\u1030\u1032\u1037\u103c-\u103e]"
+
         // consonant + medial ya + dependent vowel tone asat
-        + "|[\u1000-\u102a]\u103a[\u102c-\u102e\u1032-\u1036]"
+        //+ "|[\u1000-\u102a]\u103a[\u102c-\u102e\u1032-\u1036]"
+        // removed 102d because some input system had a bug causing: consonant + 103a 102d 102f
+        // it's a bug from input system.
+        + "|[\u1000-\u102a]\u103a[\u102c\u102e\u1032-\u1036]"
+
         // independent vowel dependent vowel tone digit + e [ FIXED !!! - not include medial ]
         + "|[\u1023-\u1030\u1032-\u1039\u1040-\u104f]\u1031"
         // other shapes of medial ra + consonant not in Shan consonant
