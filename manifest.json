@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Zawgyi Font Tagger",
   "version": "1.0.9",
   "description": "Tool to tag and render Zawgyi font in Burmese.",
